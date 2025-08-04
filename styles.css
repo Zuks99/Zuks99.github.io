@@ -1,0 +1,52 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f8f8;
+  color: #333;
+}
+
+header {
+  background: #c9d6cf;
+  padding: 1em;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.concepts-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1em;
+  gap: 1em;
+}
+
+.concept-tile {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 300px;
+  padding: 1em;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.concept-tile:hover {
+  transform: scale(1.02);
+}
+
+.concept-detail {
+  display: none;
+  margin-top: 1em;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background: #eee;
+}
