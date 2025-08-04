@@ -18,6 +18,10 @@ nav a {
   color: #333;
 }
 
+main {
+  margin: 0 10px;
+}
+
 details {
   border-bottom: 1px solid #aaa;
   border-radius: 4px;
